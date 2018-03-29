@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-19T12:36:28.201Z</updated>
+  <updated>2018-03-29T11:22:41.177Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java数组定义</title>
+    <link href="http://yoursite.com/2018/03/29/java%E6%95%B0%E7%BB%84/"/>
+    <id>http://yoursite.com/2018/03/29/java数组/</id>
+    <published>2018-03-29T11:20:26.611Z</published>
+    <updated>2018-03-29T11:22:41.177Z</updated>
+    
+    <content type="html"><![CDATA[<p>重拾java，忘了很多东西，特别是数组的定义老是会忘。记下来好了</p><p><code>`</code>java<br>        /** </p><pre><code>* 数组的三种定义方法 *  * 1.数组类型[] 数组名=new 数组类型[数组长度];   * 2.数组类型[] 数组名={数组0,数组1,数组2,数组3,....};   * 3.数组类型[] 数组名=new 数组类型[]{数组0,数组1,数组2,...};  * */  </code></pre><p>public class WhatEver {<br>    public static void main(String[] args) {<br>        //第一种   例:<br>        String[] test1 = new String[6];<br>        test1[0] = “数组0”;<br>        test1[1] = “数组1”;  </p><pre><code>    //第二种 例:      String[] test2 = {&quot;数组0&quot;,&quot;数组1&quot;,&quot;数组2&quot;,&quot;....&quot;};      //第三种 例:      String[] test3 = new String[]{&quot;数组0&quot;,&quot;数组1&quot;,&quot;数组2&quot;,&quot;....&quot;};  }  </code></pre><p>}  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;重拾java，忘了很多东西，特别是数组的定义老是会忘。记下来好了&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;`&lt;/code&gt;java&lt;br&gt;        /** &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;* 数组的三种定义方法 
+*  
+* 1.数组类型[] 数组名=new 数组类型[数组长度];
+      
+    
+    </summary>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>pat甲级感想</title>
